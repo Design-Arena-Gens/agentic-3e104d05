@@ -1,0 +1,32 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0%" cy="0%" r="150%">
+      <stop offset="0%" stop-color="#5D5FEF" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#3BD6FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#05060F" />
+    </radialGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#FF5EDF" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#05060F" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#05060F" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3BD6FF" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#FF5EDF" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="300" cy="160" r="220" fill="url(#pulse)" filter="url(#blur)" opacity="0.75" />
+  <circle cx="1000" cy="480" r="240" fill="url(#pulse)" filter="url(#blur)" opacity="0.65" />
+  <circle cx="600" cy="315" r="320" fill="url(#pulse)" filter="url(#blur)" opacity="0.6" />
+  <text x="120" y="320" font-family="'Orbitron', 'Inter', sans-serif" font-weight="600" font-size="120" fill="#ffffff" letter-spacing="0.3em">GAUTHAM</text>
+  <text x="120" y="440" font-family="'Inter', sans-serif" font-weight="300" font-size="64" fill="#B5C7FF">KRISHNA</text>
+  <text x="120" y="520" font-family="'Inter', sans-serif" font-weight="400" font-size="32" fill="#F8FAFC" opacity="0.9">Creative Technologist  •  Builder of unforgettable experiences</text>
+  <rect x="720" y="130" width="340" height="340" rx="56" stroke="url(#glow)" stroke-width="3" fill="rgba(5, 6, 15, 0.55)" />
+  <text x="780" y="240" font-family="'Inter', sans-serif" font-weight="600" font-size="40" fill="#FFFFFF">204+ builds</text>
+  <text x="780" y="300" font-family="'Inter', sans-serif" font-weight="400" font-size="28" fill="#C7D2FE">Data • AI • Web</text>
+  <text x="780" y="360" font-family="'Inter', sans-serif" font-weight="400" font-size="24" fill="#94A3B8">Turning sparks into live products</text>
+</svg>
